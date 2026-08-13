@@ -1,0 +1,42 @@
+:root {
+  --primary-color: #F97316;
+  --primary-hover: #EA580C;
+  --primary-light: rgba(249, 115, 22, 0.12);
+  --primary-glow: rgba(249, 115, 22, 0.35);
+  
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-theme="light"] {
+  --bg-primary: #F8FAFC;
+  --bg-secondary: #FFFFFF;
+  --text-main: #0F172A;
+  --text-muted: #64748B;
+  --border-color: rgba(226, 232, 240, 0.8);
+  --border-highlight: rgba(249, 115, 22, 0.3);
+
+  --glass-bg: rgba(255, 255, 255, 0.75);
+  --glass-border: rgba(255, 255, 255, 0.6);
+  --glass-shadow: 0 10px 30px -10px rgba(15, 23, 42, 0.08);
+  --glass-blur: blur(16px);
+}
+
+[data-theme="dark"] {
+  --bg-primary: #0B0F17;
+  --bg-secondary: #111827;
+  --text-main: #F8FAFC;
+  --text-muted: #94A3B8;
+  --border-color: rgba(255, 255, 255, 0.08);
+  --border-highlight: rgba(249, 115, 22, 0.4);
+
+  --glass-bg: rgba(17, 24, 39, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.12);
+  --glass-shadow: 0 12px 35px -10px rgba(0, 0, 0, 0.5);
+  --glass-blur: blur(20px);
+}

@@ -1,0 +1,16 @@
+/* Navbar Specific Styles - MegaVault */
+.glass-nav {
+  background: var(--glass-bg, rgba(17, 24, 39, 0.8));
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+.hover-bg:hover {
+  background-color: rgba(249, 115, 22, 0.12) !important;
+  color: #F97316 !important;
+}
